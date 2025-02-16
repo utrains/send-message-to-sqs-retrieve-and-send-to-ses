@@ -9,11 +9,11 @@ from email.mime.application import MIMEApplication
 # Function to send email
 
 def send_email(message):
-    SENDER = "estephe.kana@utrains.org"  # Must be verified in AWS SES Email
-    RECIPIENT = "kanaestephe@gmail.com"  # Must be verified in AWS SES Email
+    SENDER = "<ENTER A VERIFIED EMAIL>"  # Must be verified in AWS SES Email
+    RECIPIENT = "<ENTER A VERIFIED EMAIL>"  # Must be verified in AWS SES Email
 
     # Replace with the AWS Region you're using for Amazon SES.
-    AWS_REGION = "us-west-1"
+    AWS_REGION = "us-east-1"
 
     # The subject line for the email.
     SUBJECT = "This order is destined for shop1!!"
